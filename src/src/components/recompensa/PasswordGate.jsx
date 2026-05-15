@@ -114,7 +114,7 @@ function PasswordGate({ children }) {
           {/* Logo */}
           <div className="mb-6 flex flex-col items-center gap-3">
             <img
-              src="/justo-hacker-logo.png"
+              src={`${import.meta.env.BASE_URL}justo-hacker-logo.png`}
               alt="Justo Hacker"
               className="h-16 w-auto object-contain logo-glow"
             />

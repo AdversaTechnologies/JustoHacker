@@ -92,7 +92,7 @@ function HeroSection({ onOpenLead }) {
             <div className="floating-animation relative w-full max-w-md md:max-w-xl lg:max-w-4xl">
               <div className="absolute inset-0 -z-10 rounded-3xl bg-gradient-to-t from-teal-900/30 to-transparent blur-2xl" />
               <img
-                src="/justo-hacker-logo.png"
+                src={`${import.meta.env.BASE_URL}justo-hacker-logo.png`}
                 alt={m.imgAlt}
                 className="logo-glow relative z-10 mx-auto h-auto w-full max-w-[min(100%,42rem)] object-contain drop-shadow-lg md:max-w-[min(100%,48rem)]"
                 width={900}

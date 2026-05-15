@@ -12,7 +12,7 @@ function FooterSection() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="mb-4 flex items-center gap-2">
-              <img src="/justo-hacker-logo.png" alt="" className="h-12 w-auto object-contain" width={100} height={40} />
+              <img src={`${import.meta.env.BASE_URL}justo-hacker-logo.png`} alt="" className="h-12 w-auto object-contain" width={100} height={40} />
             </div>
             <p className="mb-4 text-sm leading-relaxed text-teal-200/80">{m.blurb}</p>
             <div className="space-y-2 text-sm text-teal-200/80">

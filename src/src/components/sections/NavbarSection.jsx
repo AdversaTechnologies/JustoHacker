@@ -20,7 +20,7 @@ function NavbarSection({ onOpenLead }) {
       <div className="container mx-auto flex items-center justify-between gap-3 px-4 py-3">
         <a href="#inicio" className="flex shrink-0 items-center gap-2">
           <img
-            src="/justo-hacker-logo.png"
+            src={`${import.meta.env.BASE_URL}justo-hacker-logo.png`}
             alt=""
             className="h-10 w-auto object-contain md:h-11"
             width={120}
