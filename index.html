@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/JustoHacker/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justo Hacker - Ethical Hacking con IA 24/7</title>
+    <script type="module" crossorigin src="/JustoHacker/assets/index-Dz_5o2Wr.js"></script>
+    <link rel="stylesheet" crossorigin href="/JustoHacker/assets/index-BnNhWtR2.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Popup script and init (30s) -->
+    <script src="/justohacker-popup.js"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', function() {
+        if (window.JustoHackerPopup && window.JustoHackerPopup.init) {
+          window.JustoHackerPopup.init({ autoShow: true, autoShowDelay: 30000, showOnExit: true, apiEndpoint: (window.VITE_LEAD_API_URL || '') });
+        }
+      });
+    </script>
+  </body>
+</html>
